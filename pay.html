@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay It Forward - HerFinPath</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #f8cdda, #1d2b64);
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            color: #333;
+        }
+        h1, h2 {
+            color:#222;
+        }
+        input, select, textarea, button {
+            width: 90%;
+            margin: 10px 0;
+            padding: 12px;
+            border: 1px solid #dddddd52;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        button {
+            background:#222;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background:#222;
+        }
+        .stories {
+            margin-top: 20px;
+        }
+        .story {
+            background: #fff0f6;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pay It Forward</h1>
+    <div class="container">
+        <h2>Support Women Financially</h2>
+        <form>
+            <select>
+                <option value="microloan">Fund a Microloan</option>
+                <option value="scholarship">Sponsor a Scholarship</option>
+                <option value="mentorship">Become a Mentor</option>
+            </select>
+            <input type="number" placeholder="Enter Amount (₹)">
+            <button type="submit">Donate Now</button>
+        </form>
+    </div>
+    
+    <div class="container stories">
+        <h2>Inspiring Stories</h2>
+        <div class="story">
+            <p><strong>Priya's Story:</strong> With a small microloan, Priya started her bakery. Now she funds other women!</p>
+        </div>
+        <div class="story">
+            <p><strong>Anita's Journey:</strong> A scholarship helped Anita learn coding, and now she mentors young girls.</p>
+        </div>
+    </div>
+</body>
+</html>
